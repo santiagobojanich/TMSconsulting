@@ -55,3 +55,10 @@
     --animate-duration: 2s;
   }
   
+
+
+  .bg-coverr{
+    background-image: url('./assets/black.png');
+    background-size: cover;
+  }
+  

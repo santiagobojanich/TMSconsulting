@@ -2,11 +2,13 @@ import {HiChevronDown}  from "react-icons/hi2";
 import 'animate.css'
 import TrackVisibility from 'react-on-screen';
 
+
   const Home = () => {
-      
+  
+
        return (
          <div className="font-Chakra text-white mt-12 flex flex-col justify-center">
-             <TrackVisibility>
+             <TrackVisibility once>
              {({isVisible}) =>
              <div className={isVisible ? "animate__animated animate__fadeIn" : "" }>
             
