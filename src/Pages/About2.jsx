@@ -15,8 +15,8 @@ import {HiOutlinePaintBrush} from 'react-icons/hi2'
                 <TiLightbulb  className='w-24 h-24'/>
                 </div>
              
-              <h1 className='text-[35px]'>Nos especializamos en llevar a cabo tus ideas de manera personalizada, 
-                prestando especial <br></br>atención a tus solicitudes. Convertir tus conceptos en una realidad es la prioridad.</h1>
+              <h1 className='text-[35px] w-2/3'>Nos especializamos en llevar a cabo tus ideas de manera personalizada, 
+                prestando especial atención a tus solicitudes. Convertir tus conceptos en una realidad es la prioridad.</h1>
              
                </div>
         
@@ -32,7 +32,7 @@ import {HiOutlinePaintBrush} from 'react-icons/hi2'
               <HiOutlinePaintBrush  className='w-24 h-24'/>
               </div>
 
-          <h1 className='text-[35px]'>Nos enfocamos en llevar a cabo un diseño de sitio web que cumpla 
+          <h1 className='text-[35px] w-2/3'>Nos enfocamos en llevar a cabo un diseño de sitio web que cumpla 
             con todos los requerimientos que tu empresa necesita, de ésta manera otorgarle mayor reconocimiento y por consiguiente maximizar su imagen y ventas.</h1>
         
         </div>
