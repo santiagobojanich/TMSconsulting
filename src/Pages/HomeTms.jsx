@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Home from '../components/Home';
 import NavBar from '../components/NavBar';
 import About2 from './About2';
@@ -37,6 +38,8 @@ import QueHacemos from './QueHacemos';
           <div className='h-screen'>
             <Contactanos/>
           </div>
+
+          <Footer />
 
       </div>
     )

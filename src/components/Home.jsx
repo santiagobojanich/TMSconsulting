@@ -3,6 +3,7 @@ import 'animate.css'
 import TrackVisibility from 'react-on-screen';
 import devForge from '../assets/DevForge.svg'
 
+
   const Home = () => {
   
 
@@ -24,6 +25,8 @@ import devForge from '../assets/DevForge.svg'
           
             </div>  }
            </TrackVisibility>
+
+           
              
           </div>
        )
