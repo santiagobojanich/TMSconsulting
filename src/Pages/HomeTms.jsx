@@ -2,6 +2,8 @@ import Home from '../components/Home';
 import NavBar from '../components/NavBar';
 import About2 from './About2';
 import AboutUs from './AboutUs';
+import Contactanos from './Contactanos';
+import QueHacemos from './QueHacemos';
 
 
  const HomeTms = () => {
@@ -28,6 +30,13 @@ import AboutUs from './AboutUs';
             <About2/>
           </div>
           
+          <div className='h-screen'>
+            <QueHacemos/>
+          </div>
+          
+          <div className='h-screen'>
+            <Contactanos/>
+          </div>
 
       </div>
     )

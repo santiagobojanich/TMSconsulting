@@ -1,14 +1,13 @@
-import NavBar from "../components/NavBar"
+
 import {SlScreenDesktop}  from "react-icons/sl";
-   
+
 
    const QueHacemos = () => {
           
      return (
-        <div className="h-screen bg-bgBlack font-Chakra">
-            <NavBar/>
-            <h1 className="text-[55px] text-white mt-12 ml-12">QUE HACEMOS</h1>
-        
+        <div className="h-screen bg-bgBlack font-Chakra" id="queHacemos">
+            <h1 className="text-[55px] text-white pt-24 ml-12">QUE HACEMOS</h1>
+
         
            <div className="flex flex-row h-2/3 items-center px-24 text-[32px] text-white">
                
