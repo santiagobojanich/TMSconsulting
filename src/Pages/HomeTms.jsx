@@ -5,6 +5,7 @@ import About2 from './About2';
 import AboutUs from './AboutUs';
 import Contactanos from './Contactanos';
 import QueHacemos from './QueHacemos';
+import Carousel from '../components/Carousel';
 
 
  const HomeTms = () => {
@@ -34,10 +35,15 @@ import QueHacemos from './QueHacemos';
           <div className='h-screen'>
             <QueHacemos/>
           </div>
-          
-          <div className='h-screen'>
-            <Contactanos/>
+
+          <div className="">
+         <Carousel />
           </div>
+       
+       {/*      
+          <div className=''>
+            <Contactanos/>
+         </div> */}
 
           <Footer />
 

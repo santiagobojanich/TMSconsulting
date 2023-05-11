@@ -4,10 +4,10 @@
 const Contactanos = () => {
        
     return (
-        <div className="h-screen bg-bgBlack font-Chakra text-white">
+        <div className="h-auto pb-24 bg-bgBlack font-Chakra text-white">
             
             <div className="flex flex-col items-center">
-            <h1>CONTACTANOS</h1>
+            <h1 className="text-[35px] pb-12">CONTACTANOS</h1> 
            
             <div className="flex flex-col w-2/3 justify-center items-center space-y-8 ">
                

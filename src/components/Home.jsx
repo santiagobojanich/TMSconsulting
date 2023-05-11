@@ -12,10 +12,10 @@ import devForge from '../assets/DevForge.svg'
              {({isVisible}) =>
              <div className={isVisible ? "animate__animated animate__fadeIn" : "" }>
             
-            <div className="flex flex-col ml-64 mb-40 ">
+            <div className="flex flex-col sm:ml-64 ml-6 sm:mb-40 mb-24">
                 <img src={devForge} alt='forge'/>
-                 <p className="text-[40px]">Somos una consultora caracterizada por llevar </p>
-                 <p className="text-[40px]">ideas innovadoras a un mercado real</p>
+                 <p className="sm:mt-0 mt-10 sm:text-[40px] text-[32px]">Somos una consultora caracterizada por llevar </p>
+                 <p className="sm:text-[40px] text-[32px]">ideas innovadoras a un mercado real</p>
             </div> 
            
             <div className="items-center flex justify-center float">
