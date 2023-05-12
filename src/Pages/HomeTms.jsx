@@ -17,7 +17,7 @@ import Carousel from '../components/Carousel';
     
           <div className='h-screen bg-bgBlack'>
 
-           <div className='h-auto border-white'>
+           <div className='h-auto border-white top-0 sticky'>
              <NavBar />
            </div>
              <Home/>

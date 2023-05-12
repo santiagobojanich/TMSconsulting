@@ -10,7 +10,7 @@ const NavBar = () => {
 
     return (
          
-        <div className="w-full bg-bgBlack border-white border-b-2  text-white flex items-center">
+        <div className="w-full bg-bgBlack border-white border-b-2  text-white flex items-center top-0 sticky">
                 
           
            <div className="flex w-full flex-row">
@@ -36,7 +36,9 @@ const NavBar = () => {
                       <h1 className="">QUE HACEMOS</h1>
                       </a>
                       
-                      <h1 className="text-[23px] w-1/4 flex justify-center items-center h-full nav-link">CONTACTANOS</h1>
+                      <Link to='/contact' className="text-[23px] w-1/4 flex justify-center items-center h-full nav-link">
+                        <h1 >CONTACTANOS</h1>
+                      </Link>
                       
                  </div>
 
@@ -71,7 +73,7 @@ const NavBar = () => {
                </li>
                
                <li className="text-xs">
-               <Link to='/'>
+               <Link to='/Contactanos'>
                   CONTACTANOS 
                 </Link> 
                </li>        
