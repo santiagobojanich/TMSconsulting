@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/DevForge.svg'
-import { AiOutlineMail, AiFillFacebook, AiOutlinePhone } from 'react-icons/ai'
+import { AiOutlineMail, AiFillFacebook, AiOutlineLinkedin } from 'react-icons/ai'
 import { MdOutlineDesignServices } from 'react-icons/md'
 import { FaLinkedin } from 'react-icons/fa'
 import { SlScreenDesktop, SlScreenSmartphone } from 'react-icons/sl'
@@ -33,8 +33,8 @@ const Footer = () => {
            <p className='text-white font-semibold font-Chakra'>devforge.tms@gmail.com</p>
          </div>
          <div className='flex flex-row items-center justify-start gap-2 sm:w-60'>
-           <AiOutlinePhone size={30} className='text-white'/>
-           <p className='text-white font-semibold font-Chakra'>(+54) 9 11-6888-1990</p>
+           <AiOutlineLinkedin size={30} className='text-white'/>
+           <a href='https://www.linkedin.com/company/dev-forge-tms/' target='blank' className='text-white font-semibold font-Chakra'>DevForge</a>
          </div>
        </div>
 

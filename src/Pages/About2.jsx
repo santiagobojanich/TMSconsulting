@@ -12,10 +12,10 @@ import {HiOutlinePaintBrush} from 'react-icons/hi2'
               
               
                 <div className='w-full flex pb-4 justify-center'>
-                <TiLightbulb  className='sm:w-24 w-12 sm:h-24 h-12'/>
+                <TiLightbulb  className='lg:w-24 sm:w-16 w-12 lg:h-24 sm:h-16 h-12'/>
                 </div>
              
-              <h1 className='sm:text-[35px] text-[25px] sm:w-2/3'>Nos especializamos en llevar a cabo tus ideas de manera personalizada, 
+              <h1 className='text-[25px] sm:text-[30px] lg:text-[35px]  sm:w-2/3'>Nos especializamos en llevar a cabo tus ideas de manera personalizada, 
                 prestando especial atención a tus solicitudes. Convertir tus conceptos en una realidad es la prioridad.</h1>
              
                </div>
@@ -29,10 +29,10 @@ import {HiOutlinePaintBrush} from 'react-icons/hi2'
               
               
               <div className='w-full flex pb-12 justify-center'>
-              <HiOutlinePaintBrush  className='sm:w-24 w-12 sm:h-24 h-12'/>
+              <HiOutlinePaintBrush  className='lg:w-24 sm:w-16 w-12 lg:h-24 sm:h-16 h-12'/>
               </div>
 
-          <h1 className='sm:text-[35px] text-[24px] sm:w-2/3'>Nos enfocamos en llevar a cabo un diseño de sitio web que cumpla 
+          <h1 className='text-[25px] sm:text-[30px] lg:text-[35px]  sm:w-2/3'>Nos enfocamos en llevar a cabo un diseño de sitio web que cumpla 
             con todos los requerimientos que tu empresa necesita, de ésta manera otorgarle mayor reconocimiento y por consiguiente maximizar su imagen y ventas.</h1>
         
         </div>

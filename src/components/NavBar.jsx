@@ -36,7 +36,13 @@ const NavBar = () => {
                       <h1 className="">QUE HACEMOS</h1>
                       </a>
                       
-                      <h1 className="text-[23px] w-1/4 flex justify-center items-center h-full nav-link">CONTACTANOS</h1>
+                      <Link
+                   className="text-[23px] w-1/4 flex justify-center items-center h-full nav-link"
+                      to='/contacto'>
+                      <h1 >
+                        CONTACTANOS
+                        </h1>
+                      </Link>
                       
                  </div>
 
