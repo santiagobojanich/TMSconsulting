@@ -32,13 +32,12 @@ import Carousel from '../components/Carousel';
             <About2/>
           </div>
           
-          <div className='h-screen'>
+          <div className=''>
             <QueHacemos/>
+            <Carousel />
           </div>
 
-          <div className="">
-         <Carousel />
-          </div>
+      
        
        {/*      
           <div className=''>
