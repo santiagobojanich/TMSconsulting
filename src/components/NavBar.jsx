@@ -18,9 +18,9 @@ const NavBar = () => {
                  <div className="w-2/4">
                     
                       <div className='sm:w-96 w-60 p-2 sm:h-20  sm:ml-24 ml-4  mt-1 sm:mt-0 sm:mb-2'>
-                        <Link to='/'>
+                        <a href='#logo'>
                         <img  src={devForge} alt='forge' />
-                        </Link>
+                        </a>
                       </div>
                  </div> 
 
@@ -29,20 +29,22 @@ const NavBar = () => {
                       <a href='#sobrenosotros' className='text-[23px] w-1/4 flex justify-center items-center h-full nav-link'>
                          <h1 className="">SOBRE NOSOTROS</h1>
                       </a>
-                   
-                      <h1 className="text-[23px] w-1/4 flex justify-center items-center h-full nav-link">NUESTROS CLIENTES</h1>
+                     
+                     <a className="text-[23px] w-1/4 flex justify-center items-center h-full nav-link" href='#clientes'>
+                      <h1 >NUESTROS CLIENTES</h1>
+                     </a>
                       
                       <a className='text-[23px] w-1/4 flex justify-center items-center h-full nav-link' href='#queHacemos'>
                       <h1 className="">QUE HACEMOS</h1>
                       </a>
                       
-                      <Link
+                      <a
                    className="text-[23px] w-1/4 flex justify-center items-center h-full nav-link"
-                      to='/contacto'>
+                      href='#footer'>
                       <h1 >
                         CONTACTANOS
                         </h1>
-                      </Link>
+                      </a>
                       
                  </div>
 

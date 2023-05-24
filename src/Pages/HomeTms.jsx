@@ -14,10 +14,11 @@ import Carousel from '../components/Carousel';
     return (
       <div>
 
+        
     
-          <div className='h-screen bg-bgBlack'>
-
-           <div className='h-auto border-white'>
+          <div className='bg-bgBlack h-screen'>
+         
+          <div className='h-auto fixed top-0 w-full  bg-bgBlack border-white'style={{ zIndex: 9999 }}>
              <NavBar />
            </div>
              <Home/>

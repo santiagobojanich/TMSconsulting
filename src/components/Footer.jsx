@@ -8,7 +8,7 @@ import { SlScreenDesktop, SlScreenSmartphone } from 'react-icons/sl'
 
 const Footer = () => {
   return (
-    <footer className='bg-bgBlack flex flex-col items-center justify-center'>
+    <footer className='bg-bgBlack flex flex-col items-center justify-center' id='footer'>
     <hr className='w-[90%] ' />
     <div className='sm:grid sm:grid-cols-3 sm:p-12 sm:gap-10'>
        <div className='w-full p-12 flex flex-col gap-10 font-Chakra items-center justify-start'>

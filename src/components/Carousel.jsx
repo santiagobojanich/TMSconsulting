@@ -22,7 +22,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full pb-24 justify-center items-center flex flex-col bg-bgBlack ">
+    <div className="w-full sm:pt-24 sm:pb-56 pb-24 justify-center items-center flex flex-col bg-bgBlack" id='clientes'>
     
          <h1 className="text-white text-[35px] mb-12 font-Chakra">NUESTROS CLIENTES</h1>
       
