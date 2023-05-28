@@ -26,7 +26,7 @@ const Footer = () => {
 
        <div className='w-full p-12 flex flex-col items-center justify-start gap-8'>
         <div className='sm:w-60'>
-         <h1  className='text-white font-bold font-Chakra text-orange-400'>Contacto</h1>
+         <h1  className='text-white font-bold font-Chakra'>Contacto</h1>
         </div>
          <div className='flex flex-row items-center justify-start gap-2 sm:w-60'>
            <AiOutlineMail size={30} className='text-white'/>
@@ -41,7 +41,7 @@ const Footer = () => {
 
        <div className='w-full p-12 flex flex-col items-center justify-start gap-8'>
         <div className='sm:w-full'>
-         <h1  className='text-orange-400 font-bold font-Chakra '>Servicios</h1>
+         <h1  className='text-white font-bold font-Chakra '>Servicios</h1>
         </div>
          <div className='flex flex-row items-center justify-start gap-2 sm:w-full'>
            <SlScreenDesktop size={30} className='text-white'/>
