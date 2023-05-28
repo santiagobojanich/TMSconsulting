@@ -3,7 +3,7 @@ import {MdPhonelink} from 'react-icons/md'
 
 const AboutUs = () => {
   return (
-     <div className="h-screen bg-bgBlack font-Chakra pt-6" id='sobrenosotros'>
+     <div className="h-screen bg-bgBlack font-Chakra pt-24" id='sobrenosotros'>
              
              <h1 className="sm:text-[50px] text-[35px] sm:ml-0 ml-4 text-white flex justify-center mb-12">SOMOS UNA AGENCIA ESPECIALIZADA EN...</h1>
 
