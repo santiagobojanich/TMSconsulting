@@ -62,26 +62,27 @@ const NavBar = () => {
                  >
                    <ul className='font-Chakra text-[15px] space-y-2 font-bold'>
                <li className="text-xs">
-                <Link to='/'>
+               <a href='#sobrenosotros'>
                    SOBRE NOSOTROS 
-                </Link>
+                </a>
                </li>
                <li className="text-xs">
-                <Link to='/'>
+
+                 <a  href='#clientes'>
                  NUESTROS CLIENTES
-                </Link>
+                </a>
                </li>
 
                <li className="text-xs">
-               <Link to='/'>
+               <a  href='#queHacemos'>
                   QUE HACEMOS
-                </Link> 
+                </a> 
                </li>
                
                <li className="text-xs">
-               <Link to='/'>
+               <a  href='#footer'>
                   CONTACTANOS 
-                </Link> 
+                </a> 
                </li>        
                            
                </ul>

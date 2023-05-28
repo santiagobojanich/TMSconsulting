@@ -3,11 +3,24 @@ import {BiChevronRight, BiChevronLeft} from 'react-icons/bi'
 import cuidefy from '../assets/cuidefy.svg'
 import tLogo from '../assets/Treep.svg'
 import mweed from '../assets/mweed.svg'
+import clean from '../assets/cleanning_logo.png'
 
 const images = [
-  cuidefy,
-  tLogo,
-  mweed,
+   {
+    img:cuidefy,
+    link:''
+   },
+  {
+   img:tLogo,
+   link:"https://vimeo.com/808056205"
+  },
+  {
+    img:mweed,
+    link: "https://dra-mweed.vercel.app/"
+  },
+ { img:clean,
+  link: "https://www.northmanlycleaners.com/"
+}
 ];
 
 const Carousel = () => {
@@ -36,21 +49,23 @@ const Carousel = () => {
         </button>
        
         <img
-          src={images[currentImage === 0 ? images.length - 1 : currentImage - 1]}
+          src={images[currentImage === 0 ? images.length - 1 : currentImage - 1].img}
           alt="Carousel image"
           className="sm:w-36 w-12 sm:h-36 h-12 max-w-xs"
         />
 
         <div className="">
+          <a href={images[currentImage].link} target="blank">
           <img
-            src={images[currentImage]}
+            src={images[currentImage].img}
             alt="Carousel image"
             className="sm:w-40 w-28 sm:h-40 h-28 max-w-xs transition-transform duration-500 transform sm:hover:scale-150"
           />
+          </a>
         </div>
-
+          
         <img
-          src={images[currentImage === images.length - 1 ? 0 : currentImage + 1]}
+          src={images[currentImage === images.length - 1 ? 0 : currentImage + 1].img}
           alt="Carousel image"
           className="sm:w-36 w-12 sm:h-36 h-12 max-w-xs"
         />
