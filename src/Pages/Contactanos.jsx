@@ -40,7 +40,7 @@ const Contactanos = () => {
                  <input className="w-1/2 rounded-xl h-12 p-2 bg-bgBlack border-white border placeholder-white" placeholder="Mail..."/>
                  <input className="w-1/2 rounded-xl h-12 p-2 bg-bgBlack border-white border placeholder-white" placeholder="Telefono..."/>
                </div>
-               
+                
                  <input className="w-2/3 rounded-xl h-24 p-2 bg-bgBlack border-white border placeholder-white" placeholder="Mensaje..."/>
                  <button className="w-64 h-16 text-white text-[20px] border-2 font-bold border-white but">Enviar...</button>
             </div>
